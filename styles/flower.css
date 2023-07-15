@@ -61,17 +61,59 @@ body {
 
 .flower-images {
     display: flex;
-    padding: 50px 240px 0px 240px;
+    align-items: center;
+    margin-left: 240px;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.name-of-flowers{
+    display: flex;
+    gap: 400px;
+    margin-top: 0px;
+    margin: 0px 381px 140px 418px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.flower-title {
+    text-decoration: underline;
+}
+
+.flower{
     gap: 24px;
 }
 
-.flower-images .flower {
-    width: 310px;
-    height: 428px;
+.flower .lal {
+    width: 464px;
+    height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    align-items: center;
+    text-align: center;
+    padding-top: 110px 78px 0px 78px;
 }
+.flower .holud {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgb(146, 253, 182);
+    text-align: center;
+    padding-top: 110px 78px 0px 78px;
+}
+.flower .tora {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgb(255, 224, 189);
+    text-align: center;
+    padding-top: 110px 78px 0px 78px;
+}
+.flower-images .flower{
+    padding-bottom: -50px;
+}
+
+
 
 /* Hot section styles start here */
 .hot-deal {
@@ -127,49 +169,57 @@ body {
     border: 0px;
     border-radius: 8px;
     background: #FFF;
-    
+
 }
 
 .latest-deals .subscribe {
     align-items: center;
     margin: 48px 240px 120px 240px;
 }
-.latest-deals{
+
+.latest-deals {
     background-image: url('../image/Rectangle\ 9.png');
     width: 1440px;
-height: 449px;
-align-items: center;
-margin-left: 240px;
-margin-bottom: 100px;
+    height: 449px;
+    align-items: center;
+    margin-left: 240px;
+    margin-bottom: 100px;
 }
-.our-flowers-title-section{
+
+.our-flowers-title-section {
     padding-top: 90px;
     padding-bottom: 0px;
 }
-.subscribe .subscribe-form{
-   margin-top: -40px;
-   margin-bottom: 121px;
+
+.subscribe .subscribe-form {
+    margin-top: -40px;
+    margin-bottom: 121px;
 }
+
 /* FOOTER START */
-.footer{
+.footer {
     text-align: center;
     background-color: #31000b;
 }
-.footer .footer-title{
+
+.footer .footer-title {
     color: #E55473;
     padding-top: 128px;
 }
-.footer-color{
+
+.footer-color {
     color: white;
 }
-.footer-description{
+
+.footer-description {
     color: #FFF;
     font-size: 18px;
-font-weight: 400;
+    font-weight: 400;
 }
-.copyright-description{
+
+.copyright-description {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
-font-weight: 400;
-padding-bottom: 121px;
+    font-weight: 400;
+    padding-bottom: 121px;
 }
