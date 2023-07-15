@@ -81,33 +81,69 @@ body {
     padding: 100px 430px 50px 420px;
     align-items: center;
 }
-.section-text{
+
+.section-text {
     align-items: center;
 }
-.hot-title{
+
+.hot-title {
     color: #272727;
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 0px;
-    
+
 }
-.hot-description{
+
+.hot-description {
     text-align: center;
     padding-right: 200px;
     margin-top: 24px;
     margin-bottom: 0px;
 }
-.hot-deal .section-text .diss-color{
+
+.hot-deal .section-text .diss-color {
     color: #E55473;
 }
-.sign-up{
-   margin-left: 150px;
-   margin-top: 24px;
+
+.sign-up {
+    margin-left: 150px;
+    margin-top: 24px;
 }
 
 /* INSTAGRAM section styles */
-.insta-image{
+.insta-image {
     padding: 48px 240px 0px 240px;
     display: flex;
     gap: 24px;
+}
+
+/* NEW SECTION LATEST DEAL */
+
+.email {
+    padding: 22px 513px 22px 22px;
+    border: 0px solid black;
+    border-radius: 8px;
+    background: #FFF;
+    
+}
+
+.latest-deals .subscribe {
+    align-items: center;
+    margin: 48px 240px 120px 240px;
+}
+.latest-deals{
+    background-image: url('../image/Rectangle\ 9.png');
+    width: 1440px;
+height: 449px;
+align-items: center;
+margin-left: 240px;
+margin-bottom: 100px;
+}
+.our-flowers-title-section{
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+.subscribe .subscribe-form{
+   margin-top: -40px;
+   margin-bottom: 121px;
 }
