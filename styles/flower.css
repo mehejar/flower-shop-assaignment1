@@ -1,0 +1,113 @@
+/* common shared style */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header styles Start from here */
+.header-container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding: 50px 240px 0px 240px;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 635px;
+    height: 800px;
+}
+
+.header-container .text-container .title-head {
+    color: #272727;
+    font-size: 80px;
+    ;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.header-container .text-container .title-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.btn-primery {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+/* New section our flowers */
+.our-flowers-title-section {
+    text-align: center;
+    margin-top: 178px;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.flower-images {
+    display: flex;
+    padding: 50px 240px 0px 240px;
+    gap: 24px;
+}
+
+.flower-images .flower {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: center;
+}
+
+/* Hot section styles start here */
+.hot-deal {
+    margin-top: 128px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 430px 50px 420px;
+    align-items: center;
+}
+.section-text{
+    align-items: center;
+}
+.hot-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    
+}
+.hot-description{
+    text-align: center;
+    padding-right: 200px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.hot-deal .section-text .diss-color{
+    color: #E55473;
+}
+.sign-up{
+   margin-left: 150px;
+   margin-top: 24px;
+}
+
+/* INSTAGRAM section styles */
+.insta-image{
+    padding: 48px 240px 0px 240px;
+    display: flex;
+    gap: 24px;
+}
