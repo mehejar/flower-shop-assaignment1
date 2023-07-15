@@ -48,7 +48,8 @@ body {
 /* New section our flowers */
 .our-flowers-title-section {
     text-align: center;
-    margin-top: 178px;
+    margin-top: 10px;
+
 }
 
 .section-title {
@@ -115,13 +116,15 @@ body {
     padding: 48px 240px 0px 240px;
     display: flex;
     gap: 24px;
+    margin-bottom: 128px;
 }
+
 
 /* NEW SECTION LATEST DEAL */
 
 .email {
     padding: 22px 513px 22px 22px;
-    border: 0px solid black;
+    border: 0px;
     border-radius: 8px;
     background: #FFF;
     
@@ -146,4 +149,27 @@ margin-bottom: 100px;
 .subscribe .subscribe-form{
    margin-top: -40px;
    margin-bottom: 121px;
+}
+/* FOOTER START */
+.footer{
+    text-align: center;
+    background-color: #31000b;
+}
+.footer .footer-title{
+    color: #E55473;
+    padding-top: 128px;
+}
+.footer-color{
+    color: white;
+}
+.footer-description{
+    color: #FFF;
+    font-size: 18px;
+font-weight: 400;
+}
+.copyright-description{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+font-weight: 400;
+padding-bottom: 121px;
 }
